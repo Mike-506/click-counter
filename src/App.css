@@ -1,31 +1,119 @@
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+h1 {
+  text-align: center;
+}
+
+.main-container { 
+  text-align: center;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
+}
+
+.counter {
+  width: 200px;
+  height: auto;
+  font-size: 150px;
+  padding: 10px;
+  color: var(--counter-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid var(--counter-color);
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 20px 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: var(--button-text);
+  border: var(--button-border);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all .5s ease-out;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+.click-button {
+  background-color: var(--button-click);
+}
+
+.reset-button {
+  background-color: var(--button-reset);
+  padding: 20px 70px;
+  margin-top: 15px
+}
+
+/* Responsive */
+@media screen and (max-width: 650px) {
+  h1 {
+    margin-bottom: 50px;
+  }
+
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    display: none;
+  }
+
+  .counter {
+    width: 150px;
+  }
+
+  .App {
+    flex-direction: column;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-height: 500px) {
+  .counter {
+    width: 200px;
+    height: auto;
+    font-size: 90px;
+  }
+
+  .click-button {
+    padding: 16px 30px;
+  }
+
+  .reset-button {
+    padding: 16px 70px;
+    margin-top: 10px;
+  }
+
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Logo animation*/
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 30s linear;
+    -webkit-animation: App-logo-spin infinite 30s linear;
+}
 }
 
 @keyframes App-logo-spin {
