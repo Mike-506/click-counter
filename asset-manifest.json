@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Mike-506/click-counter.git/static/css/main.3d3fdc91.css",
+    "main.js": "/Mike-506/click-counter.git/static/js/main.fa41300f.js",
+    "static/js/453.40dddece.chunk.js": "/Mike-506/click-counter.git/static/js/453.40dddece.chunk.js",
+    "static/media/click.svg": "/Mike-506/click-counter.git/static/media/click.7c2c3927206155e27024a8f8a20e2a67.svg",
+    "index.html": "/Mike-506/click-counter.git/index.html",
+    "main.3d3fdc91.css.map": "/Mike-506/click-counter.git/static/css/main.3d3fdc91.css.map",
+    "main.fa41300f.js.map": "/Mike-506/click-counter.git/static/js/main.fa41300f.js.map",
+    "453.40dddece.chunk.js.map": "/Mike-506/click-counter.git/static/js/453.40dddece.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d3fdc91.css",
+    "static/js/main.fa41300f.js"
+  ]
+}
