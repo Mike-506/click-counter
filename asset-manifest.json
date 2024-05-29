@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Mike-506/click-counter.git/static/css/main.3d3fdc91.css",
-    "main.js": "/Mike-506/click-counter.git/static/js/main.fa41300f.js",
-    "static/js/453.40dddece.chunk.js": "/Mike-506/click-counter.git/static/js/453.40dddece.chunk.js",
-    "static/media/click.svg": "/Mike-506/click-counter.git/static/media/click.7c2c3927206155e27024a8f8a20e2a67.svg",
-    "index.html": "/Mike-506/click-counter.git/index.html",
-    "main.3d3fdc91.css.map": "/Mike-506/click-counter.git/static/css/main.3d3fdc91.css.map",
-    "main.fa41300f.js.map": "/Mike-506/click-counter.git/static/js/main.fa41300f.js.map",
-    "453.40dddece.chunk.js.map": "/Mike-506/click-counter.git/static/js/453.40dddece.chunk.js.map"
+    "main.css": "/click-counter.git/static/css/main.3d3fdc91.css",
+    "main.js": "/click-counter.git/static/js/main.95bf18b0.js",
+    "static/js/453.40dddece.chunk.js": "/click-counter.git/static/js/453.40dddece.chunk.js",
+    "static/media/click.svg": "/click-counter.git/static/media/click.7c2c3927206155e27024a8f8a20e2a67.svg",
+    "index.html": "/click-counter.git/index.html",
+    "main.3d3fdc91.css.map": "/click-counter.git/static/css/main.3d3fdc91.css.map",
+    "main.95bf18b0.js.map": "/click-counter.git/static/js/main.95bf18b0.js.map",
+    "453.40dddece.chunk.js.map": "/click-counter.git/static/js/453.40dddece.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d3fdc91.css",
-    "static/js/main.fa41300f.js"
+    "static/js/main.95bf18b0.js"
   ]
 }
